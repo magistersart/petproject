@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 
 # Create your views here.
-def students_list(request):
+def main_page(request):
     return render(request, 'main.html', {})
